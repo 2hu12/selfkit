@@ -1,0 +1,76 @@
+{
+  "Seti_SB_big": false,
+  "Seti_SB_bright": true,
+  "Seti_no_bar_undertabs": true,
+  "Seti_tabs_med": true,
+  "Seti_tabs_small": true,
+  "always_show_minimap_viewport": false,
+  "binary_file_patterns":
+  [
+    "*.jpg",
+    "*.jpeg",
+    "*.png",
+    "*.gif",
+    "*.ttf",
+    "*.tga",
+    "*.dds",
+    "*.ico",
+    "*.eot",
+    "*.pdf",
+    "*.swf",
+    "*.jar",
+    "*.zip"
+  ],
+  "bold_folder_labels": true,
+  "close_windows_when_empty": true,
+  "color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
+  "enable_tab_scrolling": true,
+  "ensure_newline_at_eof_on_save": true,
+  "file_exclude_patterns":
+  [
+    ".DS_Store",
+    "*.sassc"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".sassc-cache",
+    ".sass-cache",
+    ".cache",
+    "cache",
+    ".nobone"
+  ],
+  "font_size": 11,
+  "ignored_packages":
+  [
+    "Autoprefixer",
+    "Haskell",
+    "JavaScript",
+    "JavaScriptNext - ES6 Syntax",
+    "JSX",
+    "Less2Css",
+    "Project Manager",
+    "ReactJS",
+    "SublimeHaskell",
+    "SublimeLinter",
+    "SVN"
+  ],
+  "index_exclude_patterns":
+  [
+    "/Users/zhulongzheng/code/katas/topcoder*",
+    "*.log"
+  ],
+  "material_theme_disable_fileicons": false,
+  "material_theme_small_tab": true,
+  "overlay_scroll_bars": "enabled",
+  "rulers":
+  [
+    80
+  ],
+  "scroll_past_end": true,
+  "tab_size": 2,
+  "theme": "Seti_orig.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}

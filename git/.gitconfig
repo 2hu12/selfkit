@@ -1,0 +1,57 @@
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red
+    new = green
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = cyan
+[user]
+    name = zhulongzheng
+    email = zhulongzheng@gmail.com
+[core]
+    autocrlf = false
+    editor = /usr/bin/vim
+    quotepath = false
+    pager = less -x4
+    excludesfile = /Users/zhulongzheng/.gitignore_global
+    whitespace = trailing-space,space-before-tab,cr-at-eol
+    ignorecase = false
+[alias]
+    aa = add --all
+    ai = add -i
+    st = status
+    s = show
+    cl = clone --recursive
+    ci = commit
+    ca = commit -a -m
+    br = branch -a
+    co = checkout
+    df = diff -U6
+    ds = diff --staged
+    l = log --graph --all --decorate
+    ll = log --patch --all --graph --pretty=format:'%C(blue)================================================================================%Creset\n%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    d = difftool
+    sh = diff-tree --no-commit-id --name-only -r
+    pbae = push bae musician
+    save = !sh -c 'export PREV=$(git symbolic-ref HEAD|cut -d/ -f3-) && git checkout -b "$1" && git commit -am "$1" && git checkout "$PREV"' -
+[push]
+    default = simple
+[filter "media"]
+    clean = git-media-clean %f
+    smudge = git-media-smudge %f
+[difftool "sourcetree"]
+    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+    path =
+[mergetool "sourcetree"]
+    cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+    trustExitCode = true
+[gui]
+    recentrepo = /Users/zhulongzheng/code/bWorkspace/musician/zhuanti
+[http]
+    proxy = socks5://127.0.0.1:1080
