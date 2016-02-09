@@ -2,9 +2,10 @@
   "Seti_SB_big": false,
   "Seti_SB_bright": true,
   "Seti_no_bar_undertabs": true,
+  "Seti_panel_nrml": true,
   "Seti_tabs_med": true,
   "Seti_tabs_small": true,
-  "always_show_minimap_viewport": false,
+  "always_show_minimap_viewport": true,
   "binary_file_patterns":
   [
     "*.jpg",
@@ -23,7 +24,7 @@
   ],
   "bold_folder_labels": true,
   "close_windows_when_empty": true,
-  "color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
   "enable_tab_scrolling": true,
   "ensure_newline_at_eof_on_save": true,
   "file_exclude_patterns":
@@ -42,25 +43,27 @@
     ".nobone"
   ],
   "font_size": 11,
+  "highlight_line": true,
   "ignored_packages":
   [
     "Autoprefixer",
     "Haskell",
-    "JavaScript",
-    "JavaScriptNext - ES6 Syntax",
-    "JSX",
-    "Less2Css",
     "Project Manager",
-    "ReactJS",
     "SublimeHaskell",
     "SublimeLinter",
     "SVN"
   ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
   "index_exclude_patterns":
   [
-    "/Users/zhulongzheng/code/katas/topcoder*",
     "*.log"
   ],
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
   "material_theme_disable_fileicons": false,
   "material_theme_small_tab": true,
   "overlay_scroll_bars": "enabled",
@@ -70,7 +73,8 @@
   ],
   "scroll_past_end": true,
   "tab_size": 2,
-  "theme": "Seti_orig.sublime-theme",
+  "theme": "Material-Theme.sublime-theme",
   "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true
+  "trim_trailing_white_space_on_save": true,
+  "vintage_ctrl_keys": true
 }
