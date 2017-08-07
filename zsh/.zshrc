@@ -45,7 +45,7 @@ export UPDATE_ZSH_DAYS=13
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew node npm zsh-syntax-highlighting)
+plugins=(git node npm zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 # source ~/.nvm/nvm.sh
@@ -58,8 +58,6 @@ export PATH=~/.pyenv/shims:$HOME/bin:/usr/local/sbin:$PATH
 export NODE_PATH=/usr/local/lib/node_modules
 
 export ELM_HOME=/usr/local/bin/elm
-
-export FORCE_USE_ARTIFACTORY=corp-lca1
 
 # syntax highlighting pager
 # use instead of less
